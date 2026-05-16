@@ -43,7 +43,7 @@ const Sidebar = () => {
 function SidebarItem({ icon, title, active }) {
   return (
     <div
-      className={`flex items-center space-x-3 p-2 rounded-lg ${active ? "bg-gray-700" : "hover:bg-blue-500"}`}
+      className={`flex items-center space-x-3 p-2 rounded-lg ${active ? "bg-gray-600" : "hover:bg-gray-700"}`}
     >
       {icon}
       <span className="text-sm">{title}</span>
